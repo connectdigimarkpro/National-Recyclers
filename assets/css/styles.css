@@ -1777,6 +1777,25 @@ ul {
   gap: 1rem;
 }
 
+/* Footer Logo */
+.footer-logo {
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer-logo-img {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Keep footer layout reasonable on small screens */
+@media (max-width: 768px) {
+  .footer-logo-img {
+    width: 95px;
+  }
+}
+
 .social-link {
   width: 38px;
   height: 38px;
