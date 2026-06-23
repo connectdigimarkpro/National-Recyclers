@@ -1894,6 +1894,12 @@ ul {
   transition: color var(--transition-fast);
 }
 
+/* DigimarkPro link (open in same tab unless JS or target changes) */
+.footer-powered-by a.digimarkpro-link {
+  color: var(--color-accent-light);
+}
+
+
 .footer-powered-by a:hover {
   color: var(--color-accent);
 }
